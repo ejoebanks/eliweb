@@ -3,7 +3,7 @@
 .bg-dark {
   background-color: #173F5F !important;
   border-bottom: 4px solid #20639B;
-  min-height: 80px;
+  min-height: 170px;
 }
 
 .navbar-brand {
@@ -12,3 +12,7 @@
     margin-left: -50px !important;  /* 50% of your logo width */
     display: block;
 }
+
+  .nav-head {
+    width: 150px;
+  }
