@@ -1,18 +1,56 @@
 /* Custom Navbar */
-
 .bg-dark {
-  background-color: #173F5F !important;
-  border-bottom: 4px solid #20639B;
-  min-height: 170px;
+  background-color: #263859 !important;
+  border-bottom: 5px solid #6b778d;
+  min-height: 150px;
 }
 
-.navbar-brand {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;  /* 50% of your logo width */
-    display: block;
+.nav-head {
+  width: 200px;
 }
 
-  .nav-head {
-    width: 150px;
-  }
+/* Containers for logo in navbar */
+.svg_container {
+  width: 270px;
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+}
+
+.logo_container {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* SVG styling */
+.st0 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: #FFFFFF;
+}
+
+.st2 {
+  font-family: 'Broadway';
+}
+
+.st3 {
+  font-size: 90px;
+}
+
+.st4 {
+  fill: none;
+  stroke: #C90500;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  fill: #C90500;
+}
