@@ -5,3 +5,12 @@
 #test {
   background-color: red;
 }
+
+.card-title {
+  font-size: 40px;
+}
+
+.card {
+  width: 100% !important;
+  border-color: #352f44;
+}
