@@ -37,5 +37,6 @@
 }
 
 .svg_container:hover {
-  background-color: red;
+  stroke: gray;
+  stroke-width: 2px;
 }
