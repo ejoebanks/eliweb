@@ -4,8 +4,12 @@ bottom: 0;
 width: 100%;
 min-height: 30px;
 /* Height of the footer */
-background: #1B263B;
 text-align: center;
 color: #999999;
-border-top: 5px solid #DD6031;
+background-color: #222831 !important;
+border-top: 5px solid #c90500;
+}
+
+.footer {
+
 }
