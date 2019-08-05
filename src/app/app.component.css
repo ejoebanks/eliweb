@@ -1,9 +1,10 @@
 body {
-  background-color: #dbd8e3;
+  background-color: #d1d4c9;
+  font-family: 'Muli', sans-serif;
 }
 
 .page-container {
   position: relative;
   min-height: 100vh;
-  background-color: #dbd8e3;
+  background-color: #d1d4c9;
 }
