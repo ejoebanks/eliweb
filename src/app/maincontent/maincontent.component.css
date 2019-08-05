@@ -12,5 +12,31 @@
 
 .card {
   width: 100% !important;
-  border-color: #352f44;
+  border: 3px solid #4c5f7a;
+  background-color: #393e46;
+  color: #FFFFFF;
+}
+
+.card-footer {
+  background-color: rgba(6,10,90,.1);
+}
+
+.logo {
+  background-color: red;
+}
+
+.logo_area {
+  background-color: gray;
+}
+
+#custom_btn {
+  background-color: #293462;
+  border: 1px solid #FFFFFF;
+}
+
+#custom_btn:hover {
+  background-color: #c90500 !important;
+}
+
+.card-body {
 }

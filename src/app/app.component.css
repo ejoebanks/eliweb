@@ -1,4 +1,9 @@
 body {
   background-color: #dbd8e3;
+}
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  background-color: #dbd8e3;
 }
