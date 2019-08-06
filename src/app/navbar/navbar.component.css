@@ -37,6 +37,6 @@
 }
 
 .svg_container:hover {
-  stroke: gray;
+  stroke: #a35b5b		;
   stroke-width: 2px;
 }
