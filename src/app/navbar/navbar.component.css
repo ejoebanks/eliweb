@@ -1,9 +1,9 @@
 /* Custom Navbar */
 .bg-dark {
-  background-color: #6B818C !important;
-  overflow: visible !important;
+  /*background-color: #6B818C !important;*/
+  background: linear-gradient(180deg, #0e1c36 70%, #FFEDE1 30%);
   height: 180px;
-  overflow-y: visible;}
+}
 
 #custom_nav {
   overflow-y: visible;
