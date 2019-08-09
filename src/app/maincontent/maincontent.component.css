@@ -163,3 +163,14 @@
     .cls-2 {
       fill: #fff;
     }
+
+.main_content {
+  padding: 25px;
+  background-color: #E5D5CA;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  position: relative;
+  color: white;
+  box-shadow: 0 0px 10px #cebfb5;
+}
