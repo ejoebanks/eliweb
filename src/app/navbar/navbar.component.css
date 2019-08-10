@@ -2,7 +2,7 @@
 .bg-dark {
   /*background-color: #6B818C !important;*/
   background: linear-gradient(180deg, #575366 65%, #FFEDE1 35%);
-  height: 210px;
+  min-height: 250px;
 }
 
 #custom_nav {
@@ -25,15 +25,16 @@
 
 /* Containers for logo in navbar */
 .svg_container {
-  width: 190px;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
-  display: block;
+  display: inline-block;
   overflow: visible;
 }
 
 .logo_container {
-  display: flex;
+  display: inline-block;
+  width: 90%;
   text-align: center;
   position: absolute;
   left: 50%;
@@ -46,6 +47,12 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+a svg {
+  display: inline-block;
+   vertical-align: middle;
+
 }
 
 /* SVG styling */
@@ -171,21 +178,50 @@
 .svg2_container {
   width: 250px;
   margin: 0 auto;
-  text-align: center;
-  z-index: 2;
+  position:relative;
+  display: inline-block;
+
+
 }
 
 .right_side {
   margin-left: -15px;
   width: 200px;
   padding: 30px 0 0 0px;
-  text-align: left;
   z-index: 1;
 }
 
 .left_side {
-  margin-right: -15px;
   width: 200px;
   padding: 30px 0 0 0;
-  text-align: left;
+}
+
+#parent {
+  display: flex;
+  background: linear-gradient(180deg, #575366 65%, #FFEDE1 35%);
+}
+#narrow {
+  width: 33%;
+  /* Just so it's visible */
+}
+
+#narrow svg {
+  width: 50%;
+  text-align: center;
+}
+#wide {
+  width: 33%;
+  /* Grow to rest of container */
+  /* Just so it's visible */
+}
+
+#wide svg {
+  width: 50%;
+  float: right;
+  padding: 70px 0;
+
+}
+
+#another {
+  width: 33%;
 }
