@@ -1,16 +1,17 @@
 /* Custom Navbar */
 .bg-dark {
   /*background-color: #6B818C !important;*/
-  background: linear-gradient(180deg, #495867 65%, #FFEDE1 35%);
+  background: linear-gradient(180deg, #575366 65%, #FFEDE1 35%);
   height: 210px;
 }
 
 #custom_nav {
   overflow-y: visible;
-
 }
+
 .navbar {
-overflow-y: visible;}
+  overflow-y: visible;
+}
 
 .nav-head {
   width: 200px;
@@ -21,6 +22,7 @@ overflow-y: visible;}
   width: 100%;
   background-color: teal;
 }
+
 /* Containers for logo in navbar */
 .svg_container {
   width: 190px;
@@ -45,7 +47,6 @@ overflow-y: visible;}
   left: 50%;
   transform: translateX(-50%);
 }
-
 
 /* SVG styling */
 .st0 {
@@ -180,7 +181,6 @@ overflow-y: visible;}
   padding: 30px 0 0 0px;
   text-align: left;
   z-index: 1;
-
 }
 
 .left_side {
