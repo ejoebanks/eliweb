@@ -201,16 +201,18 @@ a svg {
   background: linear-gradient(180deg, #575366 65%, #FFEDE1 35%);
 }
 #narrow {
-  width: 33%;
+  width: 50%;
+  text-align: center;
   /* Just so it's visible */
 }
 
 #narrow svg {
-  width: 50%;
+  width: auto;
+  max-width: 300px;
   text-align: center;
 }
 #wide {
-  width: 33%;
+  width: 25%;
   /* Grow to rest of container */
   /* Just so it's visible */
 }
@@ -223,5 +225,5 @@ a svg {
 }
 
 #another {
-  width: 33%;
+  width: 25%;
 }
