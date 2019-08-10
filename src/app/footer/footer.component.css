@@ -1,15 +1,16 @@
 #sticky-footer {
   position: absolute;
-bottom: 0;
-width: 100%;
-min-height: 30px;
-/* Height of the footer */
-text-align: center;
-color: #999999;
-background-color: #0E1C36 !important;
-border-top: 5px solid #c90500;
+  bottom: 0;
+  width: 100%;
+  min-height: 100px;
+  text-align: center;
+  background: linear-gradient(180deg, #FFEDE1 50%, #575366 50%);
 }
 
-.footer {
+.svg2_container {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
 
 }
