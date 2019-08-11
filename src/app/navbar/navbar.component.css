@@ -1,12 +1,24 @@
 /* Custom Navbar */
 .bg-dark {
   /*background-color: #6B818C !important;*/
-  background: linear-gradient(180deg, #575366 65%, #FFEDE1 35%);
+  background: linear-gradient(180deg, #6E7DAB 65%, #FFEDE1 35%);
   min-height: 250px;
 }
 
 #custom_nav {
   overflow-y: visible;
+}
+
+#parent:after {
+  position: absolute;
+  left: 0;
+  top: 65%;
+  height: 20px;
+  background: #C90500;
+  content: "";
+  width: 100%;
+  display: block;
+  z-index: 1;
 }
 
 .navbar {
@@ -198,32 +210,40 @@ a svg {
 
 #parent {
   display: flex;
+  position: relative;
   background: linear-gradient(180deg, #575366 65%, #FFEDE1 35%);
 }
 #narrow {
   width: 50%;
   text-align: center;
-  /* Just so it's visible */
+  z-index: 2;
 }
 
 #narrow svg {
   width: auto;
   max-width: 300px;
   text-align: center;
+  padding: 15px 0;
 }
+
 #wide {
   width: 25%;
-  /* Grow to rest of container */
-  /* Just so it's visible */
 }
 
 #wide svg {
-  width: 50%;
+  width: auto;
+  max-width: 200px;
   float: right;
-  padding: 70px 0;
-
+  padding: 35px 0;
 }
 
 #another {
   width: 25%;
+}
+
+#another svg {
+  width: auto;
+  max-width: 200px;
+  float: left;
+  padding: 35px 0;
 }
