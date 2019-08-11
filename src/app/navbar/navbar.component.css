@@ -214,7 +214,7 @@ a svg {
   background: linear-gradient(180deg, #575366 65%, #FFEDE1 35%);
 }
 #narrow {
-  width: 50%;
+  width: 40%;
   text-align: center;
   z-index: 2;
 }
@@ -227,23 +227,23 @@ a svg {
 }
 
 #wide {
-  width: 25%;
+  width: 30%;
 }
 
 #wide svg {
   width: auto;
   max-width: 200px;
   float: right;
-  padding: 35px 0;
+  padding: 25px 0;
 }
 
 #another {
-  width: 25%;
+  width: 30%;
 }
 
 #another svg {
   width: auto;
   max-width: 200px;
   float: left;
-  padding: 35px 0;
+  padding: 25px 0;
 }
