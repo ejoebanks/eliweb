@@ -114,6 +114,7 @@
 .card-body {
   border-top: 3px solid #c90500;
   background-color: #faf5ef;
+  height: 300px;
 }
 
 .card_svg {
