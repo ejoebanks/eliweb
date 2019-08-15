@@ -14,7 +14,7 @@
   left: 0;
   top: 65%;
   height: 20px;
-  background: #C90500;
+  background: #6B4E71;
   content: "";
   width: 100%;
   display: block;
@@ -27,12 +27,6 @@
 
 .nav-head {
   width: 200px;
-}
-
-#c_test {
-  height: 50px;
-  width: 100%;
-  background-color: teal;
 }
 
 /* Containers for logo in navbar */
@@ -211,8 +205,9 @@ a svg {
 #parent {
   display: flex;
   position: relative;
-  background: linear-gradient(180deg, #575366 65%, #FFEDE1 35%);
+  background: linear-gradient(180deg, #3A4454 65%, #C2B2B4 35%);
 }
+
 #narrow {
   width: 40%;
   text-align: center;
