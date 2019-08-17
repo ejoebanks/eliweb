@@ -228,6 +228,8 @@ a svg {
   width: auto;
   max-width: 250px;
   float: right;
+  max-height: 200px;
+  height: auto;
 }
 
 #another {
@@ -236,7 +238,9 @@ a svg {
 
 #another svg {
   width: auto;
-  max-width: 200px;
+  max-width: 250px;
   float: left;
-  padding: 25px 0;
+  max-height: 200px;
+  height: auto;
+
 }
