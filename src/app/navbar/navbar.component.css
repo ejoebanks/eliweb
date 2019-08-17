@@ -12,9 +12,9 @@
 #parent:after {
   position: absolute;
   left: 0;
-  top: 65%;
+  top: 60%;
   height: 20px;
-  background: #6B4E71;
+  background: #D33F49;
   content: "";
   width: 100%;
   display: block;
@@ -205,7 +205,7 @@ a svg {
 #parent {
   display: flex;
   position: relative;
-  background: linear-gradient(180deg, #3A4454 65%, #C2B2B4 35%);
+  background: linear-gradient(180deg, #373F51 65%, #C2B2B4 35%);
 }
 
 #narrow {
@@ -218,18 +218,16 @@ a svg {
   width: auto;
   max-width: 300px;
   text-align: center;
-  padding: 15px 0;
 }
 
-#wide {
+#left_link {
   width: 30%;
 }
 
-#wide svg {
+#left_link svg {
   width: auto;
-  max-width: 200px;
+  max-width: 250px;
   float: right;
-  padding: 25px 0;
 }
 
 #another {
