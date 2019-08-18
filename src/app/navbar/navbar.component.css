@@ -206,6 +206,7 @@ a svg {
   display: flex;
   position: relative;
   background: linear-gradient(180deg, #373F51 65%, #C2B2B4 35%);
+  overflow: hidden;
 }
 
 #narrow {
@@ -219,16 +220,15 @@ a svg {
   max-width: 300px;
   text-align: center;
 }
-
 #left_link {
   width: 30%;
+  text-align: right;
 }
 
 #left_link svg {
   width: auto;
   max-width: 250px;
-  float: right;
-  max-height: 200px;
+  max-height: 65%;
   height: auto;
 }
 
@@ -242,5 +242,4 @@ a svg {
   float: left;
   max-height: 200px;
   height: auto;
-
 }
