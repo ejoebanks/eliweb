@@ -232,6 +232,16 @@ a svg {
   height: auto;
 }
 
+
+.st50{fill:#D33F49;}
+.st51{fill-rule:evenodd;clip-rule:evenodd;fill:#262730;}
+.st52{fill:none;stroke:#262730;stroke-width:4;stroke-miterlimit:10;}
+
+.st50:hover {
+  fill: white !important;
+}
+
+
 #another {
   width: 30%;
 }
