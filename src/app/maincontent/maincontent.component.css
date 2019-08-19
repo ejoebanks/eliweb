@@ -11,7 +11,7 @@
   border: 3px solid #47AA42;
 }
 
-#au > .card-body {
+#au>.card-body {
   border-top: 3px solid #47AA42;
 }
 
@@ -25,12 +25,12 @@
   border: 3px solid #be5504;
 }
 
-#employee > .card-body {
+#employee>.card-body {
   border-top: 3px solid #be5504;
 }
 
 #employee_footer {
-  background-color:inherit;
+  background-color: inherit;
   border-top: 3px solid #be5504;
 }
 
@@ -43,7 +43,7 @@
   border: 3px solid #6F6866;
 }
 
-#horse > .card-body {
+#horse>.card-body {
   border-top: 3px solid #6F6866;
 }
 
@@ -52,7 +52,7 @@
   border-top: 3px solid #6F6866;
 }
 
-#dog > .card-body {
+#dog>.card-body {
   border-top: 3px solid #666666;
 }
 
@@ -119,9 +119,9 @@
 
 .card_svg {
   width: 50%;
-
   padding: 25px 25px 25px 25px;
 }
+
 .cls-1, .cls-3 {
   fill: #222831;
   stroke-miterlimit: 10;
@@ -154,25 +154,23 @@
   border-color: #7d0300;
 }
 
-    .cls-1 {
-      fill: #222831;
-      stroke: #fff;
-      stroke-miterlimit: 10;
-      stroke-width: 4px;
-    }
+.cls-1 {
+  fill: #222831;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
 
-    .cls-2 {
-      fill: #fff;
-    }
+.cls-2 {
+  fill: #fff;
+}
 
 .main_content {
   padding: 25px;
   margin-bottom: 50px;
   position: relative;
   color: white;
-  border: 5px solid #0e1c36;
-
-  /* #2 */
+  border: 10px solid #262730;
   padding: 30px;
   background: #e6e6e6;
 }

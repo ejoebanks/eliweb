@@ -14,7 +14,8 @@
   left: 0;
   top: 60%;
   height: 20px;
-  background: #D33F49;
+  background: #A31621;
+  border-bottom: 8px solid #262730;
   content: "";
   width: 100%;
   display: block;
@@ -205,7 +206,7 @@ a svg {
 #parent {
   display: flex;
   position: relative;
-  background: linear-gradient(180deg, #373F51 65%, #C2B2B4 35%);
+  background: linear-gradient(180deg, #474954 65%, #C2B2B4 35%);
   overflow: hidden;
 }
 
@@ -215,7 +216,7 @@ a svg {
   z-index: 2;
 }
 
-#narrow svg {
+#narrow img {
   width: auto;
   max-width: 300px;
   text-align: center;
@@ -230,16 +231,17 @@ a svg {
   max-width: 250px;
   max-height: 65%;
   height: auto;
+
 }
 
 
-.st50{fill:#D33F49;}
+.st50{fill:#A31621;}
 .git_logo{fill-rule:evenodd;clip-rule:evenodd;fill:#262730;}
 .st52{fill:none;stroke:#262730;stroke-width:4;stroke-miterlimit:10;}
 
-.st55 { fill: #D33F49;}
+.st55 { fill: #A31621;}
 .git_logo:hover, .st55:hover + .git_logo {
-  fill: white !important;
+  fill: #FFFFFF !important;
 }
 
 
@@ -251,6 +253,6 @@ a svg {
   width: auto;
   max-width: 250px;
   float: left;
-  max-height: 200px;
+  max-height: 65%;
   height: auto;
 }
