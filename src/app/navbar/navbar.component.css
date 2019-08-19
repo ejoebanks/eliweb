@@ -1,12 +1,9 @@
-/* Custom Navbar */
-.bg-dark {
-  /*background-color: #6B818C !important;*/
-  background: linear-gradient(180deg, #6E7DAB 65%, #FFEDE1 35%);
-  min-height: 250px;
-}
-
-#custom_nav {
-  overflow-y: visible;
+/* Custom container for navbar */
+#parent {
+  display: flex;
+  position: relative;
+  background: linear-gradient(180deg, #474954 65%, #C2B2B4 35%);
+  overflow: hidden;
 }
 
 #parent:after {
@@ -22,205 +19,21 @@
   z-index: 1;
 }
 
-.navbar {
-  overflow-y: visible;
-}
-
-.nav-head {
-  width: 200px;
-}
-
-/* Containers for logo in navbar */
-.svg_container {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  display: inline-block;
-  overflow: visible;
-}
-
-.logo_container {
-  display: inline-block;
-  width: 90%;
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.logo2_container {
-  display: flex;
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-a svg {
-  display: inline-block;
-   vertical-align: middle;
-
-}
-
-/* SVG styling */
-.st0 {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 4;
-  stroke-miterlimit: 10;
-}
-
-.st1 {
-  fill: #FFFFFF;
-}
-
-.st2 {
-  font-family: 'Broadway';
-}
-
-.st3 {
-  font-size: 90px;
-}
-
-.st4 {
-  fill: none;
-  stroke: #C90500;
-  stroke-width: 3;
-  stroke-miterlimit: 10;
-}
-
-.st5 {
-  fill: #C90500;
-}
-
-.cls-1, .cls-3 {
-  fill: none;
-  stroke-miterlimit: 10;
-}
-
-.cls-1 {
-  stroke: #fff;
-  stroke-width: 4px;
-}
-
-.cls-2 {
-  font-size: 90px;
-  fill: #fff;
-  font-family: Broadway;
-}
-
-.cls-3 {
-  stroke: #c90500;
-  stroke-width: 3px;
-}
-
-.cls-4 {
-  fill: #c90500;
-}
-
-#Layer_1 {
-  fill: red;
-}
-
-.svg_container:hover {
-  stroke: #6B818C;
-  stroke-width: 2px;
-}
-
-.a, .b {
-  fill: none;
-  stroke-miterlimit: 10;
-}
-
-.a {
-  stroke: #fff;
-  stroke-width: 4px;
-}
-
-.b {
-  stroke: #c90500;
-  stroke-width: 3px;
-}
-
-.c {
-  fill: #fff;
-  fill-rule: evenodd;
-}
-
-.git_container {
-  width: 100px;
-  padding: 30px 0 0 5px;
-  text-align: left;
-}
-
-.other_container {
-  width: 100px;
-  padding: 30px 0 0 5px;
-  text-align: left;
-}
-
-.ee04139e-9b3e-4b32-8c78-6fc8bad04fa0:hover {
-  background-color: red;
-}
-
-.ee04139e-9b3e-4b32-8c78-6fc8bad04fa0, .fa2641c1-df6e-41e6-bfde-11ab62519b4b {
-  fill: none;
-  stroke: #c90500;
-  stroke-miterlimit: 10;
-}
-
-.ee04139e-9b3e-4b32-8c78-6fc8bad04fa0 {
-  stroke-width: 4px;
-}
-
-.fa2641c1-df6e-41e6-bfde-11ab62519b4b {
-  stroke-width: 3px;
-}
-
-.b683b92e-3147-4907-9470-07fd41723797 {
-  fill: #fff;
-  fill-rule: evenodd;
-}
-
-.svg2_container {
-  width: 250px;
-  margin: 0 auto;
-  position:relative;
-  display: inline-block;
-
-
-}
-
-.right_side {
-  margin-left: -15px;
-  width: 200px;
-  padding: 30px 0 0 0px;
-  z-index: 1;
-}
-
-.left_side {
-  width: 200px;
-  padding: 30px 0 0 0;
-}
-
-#parent {
-  display: flex;
-  position: relative;
-  background: linear-gradient(180deg, #474954 65%, #C2B2B4 35%);
-  overflow: hidden;
-}
-
-#narrow {
+/* Center container for SVG */
+#main {
   width: 40%;
   text-align: center;
   z-index: 2;
 }
 
-#narrow img {
+#main img {
   width: auto;
   max-width: 300px;
   text-align: center;
 }
+
+/* Git Nav SVG & container */
+
 #left_link {
   width: 30%;
   text-align: right;
@@ -231,28 +44,63 @@ a svg {
   max-width: 250px;
   max-height: 65%;
   height: auto;
-
 }
 
+.git_bg {
+  fill: #A31621;
+}
 
-.st50{fill:#A31621;}
-.git_logo{fill-rule:evenodd;clip-rule:evenodd;fill:#262730;}
-.st52{fill:none;stroke:#262730;stroke-width:4;stroke-miterlimit:10;}
+.git_logo {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #262730;
+}
 
-.st55 { fill: #A31621;}
-.git_logo:hover, .st55:hover + .git_logo {
+.git_borders {
+  fill: none;
+  stroke: #262730;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.git_logo_fill {
+  fill: #A31621;
+}
+
+.git_logo:hover, .git_logo_fill:hover+.git_logo {
   fill: #FFFFFF !important;
 }
 
 
-#another {
+/* Right side container & SVG */
+
+#right_link {
   width: 30%;
 }
 
-#another svg {
+#right_link svg {
   width: auto;
   max-width: 250px;
   float: left;
   max-height: 65%;
   height: auto;
 }
+
+  .mail_bg {
+    fill: #A31621;
+  }
+
+  .mail_borders {
+    fill: none;
+    stroke: #262730;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+  }
+
+
+  .mail_logo {
+    fill: none;
+    stroke: #262730;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+  }
