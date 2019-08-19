@@ -234,10 +234,11 @@ a svg {
 
 
 .st50{fill:#D33F49;}
-.st51{fill-rule:evenodd;clip-rule:evenodd;fill:#262730;}
+.git_logo{fill-rule:evenodd;clip-rule:evenodd;fill:#262730;}
 .st52{fill:none;stroke:#262730;stroke-width:4;stroke-miterlimit:10;}
 
-.st50:hover {
+.st55 { fill: #D33F49;}
+.git_logo:hover, .st55:hover + .git_logo {
   fill: white !important;
 }
 
