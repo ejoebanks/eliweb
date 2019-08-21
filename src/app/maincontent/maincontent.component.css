@@ -195,7 +195,7 @@
   background-color: #E0E1DD;
   width: auto;
   background-color: #faf5ef;
-  border: 4px solid #474954;
+  border: 5px solid #474954;
 }
 
 .modal_body {
@@ -203,7 +203,8 @@
 }
 
 .modal_body img {
-  width: 100px;
+  width: 200px;
+  padding-bottom: 10px;
 }
 
 .modal-footer {
