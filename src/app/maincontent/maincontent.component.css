@@ -7,8 +7,8 @@
   padding: 25px;
   margin-bottom: 50px;
   position: relative;
+  height: 100%;
   color: white;
-  border: 10px solid #262730;
   padding: 30px;
   background: #e6e6e6;
 }
@@ -202,7 +202,17 @@
   color: black;
 }
 
+.modal_body img {
+  width: 100px;
+}
+
 .modal-footer {
   margin: 0 auto;
   float: none;
+  overflow: visible;
+  padding: 10px;
+  border: none;
+  border-top: 8px double #262730;
+  color: #262730;
+  text-align: center;
 }
