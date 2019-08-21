@@ -33,7 +33,6 @@
 }
 
 /* Git Nav SVG & container */
-
 #left_link {
   width: 30%;
   text-align: right;
@@ -71,9 +70,7 @@
   fill: #FFFFFF !important;
 }
 
-
 /* Right side container & SVG */
-
 #right_link {
   width: 30%;
 }
@@ -86,21 +83,20 @@
   height: auto;
 }
 
-  .mail_bg {
-    fill: #A31621;
-  }
+.mail_bg {
+  fill: #A31621;
+}
 
-  .mail_borders {
-    fill: none;
-    stroke: #262730;
-    stroke-width: 4;
-    stroke-miterlimit: 10;
-  }
+.mail_borders {
+  fill: none;
+  stroke: #262730;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
 
-
-  .mail_logo {
-    fill: none;
-    stroke: #262730;
-    stroke-width: 3;
-    stroke-miterlimit: 10;
-  }
+.mail_logo {
+  fill: none;
+  stroke: #262730;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
