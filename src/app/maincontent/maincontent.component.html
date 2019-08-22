@@ -1,46 +1,63 @@
 <div class="container">
+  <div class="modal fade" id="modal_window" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h4 id="modalheader">More Information</h4>
+          <hr class="dark_hr" />
+          <div class="modal_body" id="dog_content">
+            <img src="/assets/used_dog.svg" />
+            <hr class="dark_hr" />
+            <p>
+              HOPE, a local animal rescue, needed a website to suit their
+              needs. They wanted a simple, straightforward website that had
+              links to what they wanted, images, a contact form, and a way they
+              could post updates about past adoptions.
+            </p>
 
-  <div class="main_content">
-
-    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body mx-3">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <i class="fas fa-times-circle"></i>
-            </button>
-            <h4 id="modalheader">More Information</h4>
-            <hr id="dark_hr"/>
-            <div class="modal_body">
-              <img src="/assets/used_dog.svg"/>
-              <p>
-                HOPE, a local animal rescue, needed a website to suit their
-                needs.  They wanted a simple, straightforward website that had
-                links to what they wanted, images, a contact form, and a way they
-                could post updates about past adoptions.
-                </p>
-                <p>
-                I set the organization up with web hosting, a domain, and then
-                implemented Wordpress and worked with them on what layout they wanted
-                and how they wanted it to look.  I set up the links they provided me,
-                designed certain images, such as the main image and featured pets, and
-                customized the colors to their liking.  I installed and set up plugins
-                for certain functions they wanted, such as the contact form that sends
-                the message to the organization leader.  I perform regular updates to the
-                design, layout, images, plugins, and more.
-              </p>
-            </div>
+            <p>
+              I set the organization up with web hosting, a domain, and then
+              implemented Wordpress and worked with them on what layout they wanted
+              and how they wanted it to look. I set up the links they provided me,
+              designed certain images, such as the main image and featured pets, and
+              customized the colors to their liking. I installed and set up plugins
+              for certain functions they wanted, such as the contact form that sends
+              the message to the organization leader. I perform regular updates to the
+              design, layout, images, plugins, and more.
+            </p>
           </div>
 
-          <div class="modal-footer">
-            <input type="button" class="btn btn-danger" id="event_remove" value="Remove">
-            <input type="button" class="btn btn-primary" id="event_update" value="Save">
+          <div class="modal_body" id="employee_content">
+            <img src="/assets/laravel.svg" />
+            <hr class="dark_hr" />
+            <p>
+              TEST TEST TEST TEST TEST
+              needs. They wanted a simple, straightforward website that had
+              links to what they wanted, images, a contact form, and a way they
+              could post updates about past adoptions.
+            </p>
+
+            <p>
+              I set the organization up with web hosting, a domain, and then
+              implemented Wordpress and worked with them on what layout they wanted
+              and how they wanted it to look. I set up the links they provided me,
+              designed certain images, such as the main image and featured pets, and
+              customized the colors to their liking. I installed and set up plugins
+              for certain functions they wanted, such as the contact form that sends
+              the message to the organization leader. I perform regular updates to the
+              design, layout, images, plugins, and more.
+            </p>
           </div>
+        </div>
+
+        <div class="modal-footer">
+          <a href="#" id="close_btn" class="btn btn-primary" data-dismiss="modal">Close</a>
         </div>
       </div>
     </div>
+  </div>
 
-
+  <div class="main_content">
     <div class="row">
       <div class="col-md-6">
         <div id="au" class="card" style="width:400px">
@@ -78,6 +95,7 @@
           </div>
           <div id="au_footer" class="card-footer">
             <a href="https://libguides.aurora.edu/gpacalculator" id="red_btn" class="btn btn-primary">Visit</a>
+            <button type="button" class="btn btn-primary modal_btn" value="gpa_content">Read More</button>
           </div>
         </div>
         <br />
@@ -104,6 +122,7 @@
           </div>
           <div id="horse_footer" class="card-footer">
             <a href="#" id="red_btn" class="btn btn-primary">Visit</a>
+            <button type="button" class="btn btn-primary modal_btn" value="horse_content">Read More</button>
           </div>
         </div>
       </div>
@@ -131,6 +150,7 @@
           </div>
           <div id="employee_footer" class="card-footer">
             <a href="#" id="red_btn" class="btn btn-primary">Visit</a>
+            <button type="button" class="btn btn-primary modal_btn" value="employee_content" data-toggle="modal">Read More</button>
           </div>
         </div>
         <br />
@@ -157,7 +177,7 @@
           </div>
           <div id="dog_footer" class="card-footer">
             <a href="http://sparrowdogs.com/" id="red_btn" class="btn btn-primary">Visit</a>
-            <button type="button" class="btn btn-primary" id="red_btn" data-toggle="modal" data-target="#editModal">Read More</button>
+            <button type="button" class="btn btn-primary modal_btn" value="dog_content">Read More</button>
           </div>
         </div> <br />
       </div>
