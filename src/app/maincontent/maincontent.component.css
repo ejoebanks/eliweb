@@ -168,8 +168,7 @@
 /* Modal */
 .modal {}
 
-
-#dark_hr {
+.dark_hr {
   overflow: visible;
   padding: 0;
   border: none;
@@ -178,7 +177,7 @@
   text-align: center;
 }
 
-#dark_hr:after {
+.dark_hr:after {
   display: inline-block;
   position: relative;
   top: -0.7em;
@@ -216,4 +215,8 @@
   border-top: 8px double #262730;
   color: #262730;
   text-align: center;
+}
+
+#dog_content, #employee_content {
+  display: none;
 }
