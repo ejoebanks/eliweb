@@ -25,6 +25,6 @@ $(document).ready(function() {
   $(".modal").on("hidden.bs.modal", function(){
       $("#employee_content").hide();
       $("#dog_content").hide();
-
+      $("#gpa_content").hide();
   });
 });
