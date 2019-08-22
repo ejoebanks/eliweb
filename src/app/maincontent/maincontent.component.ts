@@ -13,3 +13,18 @@ export class MaincontentComponent implements OnInit {
   }
 
 }
+
+
+$(document).ready(function() {
+  $('.modal_btn').click(function() {
+      $('#modal_window').modal('show');
+      var btnid = $(this).val();
+      $('#' + btnid + '').show()
+  });
+
+  $(".modal").on("hidden.bs.modal", function(){
+      $("#employee_content").hide();
+      $("#dog_content").hide();
+
+  });
+});
