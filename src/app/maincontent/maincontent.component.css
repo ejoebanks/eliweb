@@ -202,7 +202,7 @@
 }
 
 .modal_body img {
-  width: 200px;
+  max-width: 300px;
   padding-bottom: 10px;
 }
 
@@ -217,6 +217,6 @@
   text-align: center;
 }
 
-#dog_content, #employee_content {
+#dog_content, #employee_content, #gpa_content, #horse_content {
   display: none;
 }
