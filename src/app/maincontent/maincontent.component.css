@@ -188,6 +188,7 @@
 #modalheader {
   font-size: 2em;
   color: #474954;
+  overflow: wrap;
 }
 
 .modal-content {
@@ -202,8 +203,6 @@
 }
 
 .modal_body img {
-  max-width: 300px;
-  padding-bottom: 10px;
 }
 
 .modal-footer {
