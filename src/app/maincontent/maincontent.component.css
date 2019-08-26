@@ -202,8 +202,6 @@
   color: black;
 }
 
-.modal_body img {
-}
 
 .modal-footer {
   margin: 0 auto;
@@ -218,4 +216,9 @@
 
 #dog_content, #employee_content, #gpa_content, #horse_content {
   display: none;
+}
+
+
+.modal-dialog {
+  max-width: 750px !important;
 }
