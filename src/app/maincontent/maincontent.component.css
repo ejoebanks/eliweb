@@ -26,8 +26,9 @@
 }
 
 #info_svg {
-  max-height: 15%;
-  max-width: 15%;
+  min-height: 50%;
+  max-height: 250px;
+  width: 100%;
 }
 
 .info_box {
@@ -120,7 +121,9 @@
 }
 
 .card_svg {
-  width: 50%;
+  min-height: 50%;
+  max-height: 250px;
+  width: 100%;
   padding: 25px 25px 25px 25px;
 }
 
@@ -270,7 +273,7 @@
   text-align: center;
 }
 
-#dog_content, #employee_content, #gpa_content, #horse_content {
+#dog_content, #employee_content, #gpa_content, #horse_content, #contact_content {
   display: none;
 }
 
