@@ -9,10 +9,9 @@
 #parent:after {
   position: absolute;
   left: 0;
-  top: 60%;
-  height: 20px;
-  background: #A31621;
-  border-bottom: 8px solid #262730;
+  top: 65%;
+  height: 10px;
+  background: #262730;
   content: "";
   width: 100%;
   display: block;
