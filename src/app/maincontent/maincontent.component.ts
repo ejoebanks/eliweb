@@ -22,6 +22,9 @@ $(document).ready(function() {
       if(btnid == ""){
         btnid = "contact_content";
         $("#contact_content").show();
+        $("#modalheader").text("Contact Me");
+      } else {
+        $("#modalheader").text("More Information");
       }
       $('#' + btnid + '').show();
   });
