@@ -101,8 +101,11 @@
 
 .mail_bg_fill {
   fill: #A31621;
+  cursor: pointer;
+
 }
 
-.mail_fill:hover, .mail_bg_fill:hover+.mail_fill {
+.mail_fill:hover, .mail_bg_fill:hover+.mail_fill{
   fill: #FFFFFF !important;
+  cursor: pointer;
 }
