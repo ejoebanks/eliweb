@@ -1,1 +1,17 @@
-<svg id="a1bf7f04-2f56-440c-8e2e-52f16d1bb423" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255.88 342.04"><defs><style>.bdbc0264-57ee-4e6d-97ff-2e3bd20173e4{fill:#222831;stroke:#fff;stroke-miterlimit:10;stroke-width:4px;}.a3defbde-5693-4a68-b6de-75d0de977629{font-size:300px;fill:#fff;font-family:FranklinGothic-Heavy, Franklin Gothic Heavy;font-weight:800;}</style></defs><title>info_svg</title><circle class="bdbc0264-57ee-4e6d-97ff-2e3bd20173e4" cx="127.94" cy="149.11" r="125.94"/><text class="a3defbde-5693-4a68-b6de-75d0de977629" transform="translate(45 250.05)">?</text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 255.9 255.9" style="enable-background:new 0 0 255.9 255.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#222831;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+</style>
+<circle class="st0" cx="127.9" cy="127.9" r="125.9"/>
+<g>
+	<path class="st1" d="M104.7,101.4l-53.8-5.9c8.2-45.8,34.8-68.7,79.8-68.7c22.7,0,40.5,6,53.6,17.9c13.1,12,19.6,26.8,19.6,44.5
+		c0,7.8-1.3,14.9-3.9,21.4c-2.6,6.4-5.9,11.7-10,15.9c-4.1,4.2-10.6,9.5-19.7,16.2c-6.9,5.1-11.4,8.8-13.3,11.1
+		c-1.9,2.3-3.2,5.6-3.9,10h-48.6c0-11.8,1-20.3,3.1-25.6c2.1-5.2,6.4-10.8,13-16.6c9.9-8.9,16-15.5,18.5-19.8
+		c2.4-4.3,3.7-9.4,3.7-15.2c0-6.1-1.6-10.7-4.8-14c-3.2-3.3-7.2-4.9-12-4.9C111.9,67.7,104.8,79,104.7,101.4z M158.9,176.4v53.5
+		h-56.1v-53.5H158.9z"/>
+</g>
+</svg>
