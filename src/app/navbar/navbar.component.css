@@ -45,7 +45,7 @@
 }
 
 .git_bg {
-  fill: #A31621;
+  fill: #9E2A2B;
 }
 
 .git_logo {
@@ -62,11 +62,11 @@
 }
 
 .git_logo_fill {
-  fill: #A31621;
+  fill: #9E2A2B;
 }
 
 .git_logo:hover, .git_logo_fill:hover+.git_logo {
-  fill: #FFFFFF !important;
+  fill: #EEE5E9 !important;
 }
 
 /* Right side container & SVG */
@@ -83,7 +83,7 @@
 }
 
 .mail_bg {
-  fill: #A31621;
+  fill: #9E2A2B;
 }
 
 .mail_borders {
@@ -100,12 +100,12 @@
 }
 
 .mail_bg_fill {
-  fill: #A31621;
+  fill: #9E2A2B;
   cursor: pointer;
 
 }
 
 .mail_fill:hover, .mail_bg_fill:hover+.mail_fill{
-  fill: #FFFFFF !important;
+  fill: #EEE5E9 !important;
   cursor: pointer;
 }
