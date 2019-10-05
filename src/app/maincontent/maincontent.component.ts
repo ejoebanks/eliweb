@@ -19,7 +19,11 @@ $(document).ready(function() {
   $('.modal_btn').click(function() {
       $('#modal_window').modal('show');
       var btnid = $(this).val();
-      $('#' + btnid + '').show()
+      if(btnid == ""){
+        btnid = "contact_content";
+        $("#contact_content").show();
+      }
+      $('#' + btnid + '').show();
   });
 
   $(".modal").on("hidden.bs.modal", function(){
@@ -27,6 +31,6 @@ $(document).ready(function() {
       $("#dog_content").hide();
       $("#gpa_content").hide();
       $("#horse_content").hide();
-
+      $("#contact_content").hide();
   });
 });

@@ -93,9 +93,16 @@
   stroke-miterlimit: 10;
 }
 
-.mail_logo {
-  fill: none;
-  stroke: #262730;
-  stroke-width: 3;
-  stroke-miterlimit: 10;
+.mail_fill {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #262730;
+}
+
+.mail_bg_fill {
+  fill: #A31621;
+}
+
+.mail_fill:hover, .mail_bg_fill:hover+.mail_fill {
+  fill: #FFFFFF !important;
 }
