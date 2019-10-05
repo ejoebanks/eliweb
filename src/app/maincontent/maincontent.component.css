@@ -69,6 +69,11 @@
     color: white;
     padding: 10px;
   }
+
+  #email_header {
+    font-size: 25px;
+  }
+
 }
 
 /* Base styling */
