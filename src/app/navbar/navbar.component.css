@@ -2,10 +2,12 @@
 #parent {
   display: flex;
   position: relative;
+
   background: linear-gradient(180deg, #474954 65%, #C2B2B4 35%);
   overflow: hidden;
 }
 
+/*
 #parent:after {
   position: absolute;
   left: 0;
@@ -17,95 +19,47 @@
   display: block;
   z-index: 1;
 }
-
-/* Center container for SVG */
-#main {
-  width: 40%;
-  text-align: center;
-  z-index: 2;
+*/
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
-#main img {
-  width: auto;
-  max-width: 300px;
-  text-align: center;
+.bg-dark {
+  /*background: linear-gradient(180deg, #333333 75%, #fff 5%, #4d4d4d 20%);*/
+  background: #333333 !important;
 }
 
-/* Git Nav SVG & container */
-#left_link {
-  width: 30%;
-  text-align: right;
+.logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 150px;
 }
 
-#left_link svg {
-  width: auto;
-  max-width: 250px;
-  max-height: 65%;
-  height: auto;
+.nav-link {
+  color: white;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 25px;
 }
 
-.git_bg {
-  fill: #9E2A2B;
+.nav-link:hover {
+  color: #9E2A2B !important;
 }
 
-.git_logo {
-  fill-rule: evenodd;
-  clip-rule: evenodd;
-  fill: #262730;
+.logo_test {
+  height: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
-.git_borders {
-  fill: none;
-  stroke: #262730;
-  stroke-width: 4;
-  stroke-miterlimit: 10;
-}
-
-.git_logo_fill {
-  fill: #9E2A2B;
-}
-
-.git_logo:hover, .git_logo_fill:hover+.git_logo {
-  fill: #EEE5E9 !important;
-}
-
-/* Right side container & SVG */
-#right_link {
-  width: 30%;
-}
-
-#right_link svg {
-  width: auto;
-  max-width: 250px;
-  float: left;
-  max-height: 65%;
-  height: auto;
-}
-
-.mail_bg {
-  fill: #9E2A2B;
-}
-
-.mail_borders {
-  fill: none;
-  stroke: #262730;
-  stroke-width: 4;
-  stroke-miterlimit: 10;
-}
-
-.mail_fill {
-  fill-rule: evenodd;
-  clip-rule: evenodd;
-  fill: #262730;
-}
-
-.mail_bg_fill {
-  fill: #9E2A2B;
-  cursor: pointer;
-
-}
-
-.mail_fill:hover, .mail_bg_fill:hover+.mail_fill{
-  fill: #EEE5E9 !important;
-  cursor: pointer;
+.logo_test:hover {
+  stroke: red;
 }
