@@ -4,13 +4,10 @@
 }
 
 .main_content {
-  padding: 25px;
-  margin-bottom: 50px;
   position: relative;
   height: 100%;
   color: white;
   padding: 30px;
-  background: #EEE5E9;
 }
 
 .info_svg_container {
@@ -133,32 +130,34 @@
 }
 
 #red_btn {
-  background-color: #7d0300;
-  border-color: #7d0300;
-  color: white;
+  background-color: #D2D4C8;
+  border-color: #979890;
+  color: #000000;
 }
 
 #red_btn:hover {
-  background-color: #c90500;
+  background-color: #979890;
 }
 
 #red_btn:active {
-  border-color: #7d0300;
+  border-color: #979890;
 }
 
 /* Custom GPA Calculator card */
 #au {
-  background-color: #00467F;
+  background-color: #002a4c;
   border: 3px solid #47AA42;
 }
 
 #au>.card-body {
-  border-top: 3px solid #47AA42;
+  border-top: 3px solid #002a4c;
+  background-color: #002a4c;
+  color: white;
 }
 
 #au_footer {
   background-color: #002a4c;
-  border-top: 3px solid #47AA42;
+  border-top: 3px solid #002a4c;
 }
 
 /* Custom employee management card */
@@ -168,12 +167,14 @@
 }
 
 #employee>.card-body {
-  border-top: 3px solid #be5504;
+  border-top: 3px solid #1B263B;
+  background-color: #1B263B;
+  color: white;
 }
 
 #employee_footer {
   background-color: inherit;
-  border-top: 3px solid #be5504;
+  border-top: 3px solid #1B263B;
 }
 
 /* Custom dog rescue card */
@@ -182,32 +183,40 @@
 }
 
 #dog>.card-body {
-  border-top: 3px solid #666666;
+  border-top: 3px solid #43004D;
+  background-color: #43004D;
+  color: white;
 }
 
 #dog {
-  background-color: #5f006d;
-  border: 3px solid #666666;
+  background-color: #43004D;
+  border: 3px solid #760088;
 }
 
 #dog_footer {
-  border-top: 3px solid #666666;
+  border-top: 3px solid #43004D;
   background-color: #43004D;
 }
 
 /* Custom horse braiding card */
 #horse {
-  background-color: #788585;
-  border: 3px solid #6F6866;
+  background-color: #38302E;
+  border: 3px solid gray;
 }
 
 #horse>.card-body {
-  border-top: 3px solid #6F6866;
+  border-top: 3px solid #38302E;
+  background-color: #38302E;
+  color: white;
 }
 
 #horse_footer {
   background-color: #38302E;
-  border-top: 3px solid #6F6866;
+  border-top: 3px solid #38302E;
+}
+
+#horse svg {
+  stroke: 10px red;
 }
 
 /* GPA calc bg */
@@ -284,4 +293,10 @@
 
 .modal-dialog {
   max-width: 750px !important;
+}
+
+.footer-logo {
+  width: 70%;
+  margin: 0 auto;
+  z-index: 2;
 }
