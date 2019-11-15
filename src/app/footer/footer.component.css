@@ -2,15 +2,14 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 100px;
+  min-height: 50px;
+  max-height: 100px;
   text-align: center;
-  background: linear-gradient(180deg, #C2B2B4 50%, #474954 50%);
+  background: linear-gradient(#C9CBC0, #D5D7CE);
 }
 
-.svg2_container {
-  width: 250px;
+.footer-logo {
+  width: 300px;
   margin: 0 auto;
-  text-align: center;
   z-index: 2;
-
 }
