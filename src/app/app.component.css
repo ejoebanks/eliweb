@@ -1,11 +1,10 @@
 body {
-  background-color: #C2B2B4;
-
+background: linear-gradient(#333333, #D2D4C8);
   font-family: 'Muli', sans-serif;
 }
 
 .page-container {
   position: relative;
   min-height: 100vh;
-  background-color: #C2B2B4;
+  background-color: #D2D4C8;
 }
