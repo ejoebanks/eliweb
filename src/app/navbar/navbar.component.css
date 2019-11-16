@@ -2,7 +2,6 @@
 #parent {
   display: flex;
   position: relative;
-
   background: linear-gradient(180deg, #474954 65%, #C2B2B4 35%);
   overflow: hidden;
 }
@@ -24,6 +23,7 @@ a.svg {
   position: relative;
   display: inline-block;
 }
+
 a.svg:after {
   content: "";
   position: absolute;
@@ -61,5 +61,6 @@ a.svg:after {
 }
 
 .logo_test:hover {
-  stroke: red;
+  -webkit-filter: opacity(.4);
+  filter: opacity(.4);
 }
