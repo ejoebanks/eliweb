@@ -49,9 +49,42 @@ a.svg:after {
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 25px;
 }
+.nav-link {
+  letter-spacing: 0;
+}
 
-.nav-link:hover {
-  color: #9E2A2B !important;
+.text_expand:hover,
+.text_expand:active {
+  letter-spacing: 2px;
+}
+
+.text_expand:after,
+.text_expand:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 400ms ease-in-out;
+  width: 0;
+}
+
+.text_expand:hover:after,
+.text_expand:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #9E2A2B;
+  transition: width 600ms ease-in-out;
+  width: 100%;
+}
+
+.text_expand:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 100%;
 }
 
 .logo_test {
@@ -61,6 +94,5 @@ a.svg:after {
 }
 
 .logo_test:hover {
-  -webkit-filter: opacity(.4);
-  filter: opacity(.4);
+  filter: grayscale(100%) sepia(100%) hue-rotate(180deg);
 }
