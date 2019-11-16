@@ -87,5 +87,6 @@ a.svg:after {
 }
 
 .logo_test:hover {
-  filter: grayscale(100%) sepia(100%) hue-rotate(180deg);
+  -webkit-filter: brightness(10);
+  filter: brightness(10);
 }
