@@ -1,10 +1,9 @@
 body {
-background: linear-gradient(#333333, #D2D4C8);
-  font-family: 'Muli', sans-serif;
-}
+background: #0e0e0e;
+font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 .page-container {
   position: relative;
   min-height: 100vh;
-  background-color: #D2D4C8;
+  background-color: #0e0e0e;
 }
