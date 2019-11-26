@@ -4,17 +4,17 @@ import * as bootstrap from "bootstrap";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { AboutmeComponent } from './aboutme/aboutme.component';
 import { MaincontentComponent } from './maincontent/maincontent.component';
 import { FooterComponent } from './footer/footer.component';
+import { TestingComponent } from './testing/testing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    AboutmeComponent,
     MaincontentComponent,
-    FooterComponent
+    FooterComponent,
+    TestingComponent
   ],
   imports: [
     BrowserModule,
