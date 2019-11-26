@@ -84,6 +84,11 @@ a.svg:after {
   height: 200px;
   padding-left: 25px;
   padding-right: 25px;
+  transition: 600ms;
+transition-timing-function: ease-in-out;
+-webkit-transition: 600ms;
+-webkit-transition-timing-function: ease-in-out;
+
 }
 
 .logo_test:hover {
