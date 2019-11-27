@@ -1,6 +1,5 @@
 /* Container for all main content */
 .container {
-  text-align: center;
 }
 
 .main_content {
@@ -299,4 +298,84 @@
   width: 70%;
   margin: 0 auto;
   z-index: 2;
+}
+
+.main-display {
+  color: white;
+  font-weight: 700;
+  text-align: left;
+  padding-bottom: .25em;
+}
+
+.red-border {
+  border-width: 1rem !important;
+  border-color: #9E2A2B !important;
+  border-style: dashed inset;
+  }
+
+.text-secondary {
+  color: #9E2A2B !important;
+  font-weight: 200;
+  font-size: 1.5em;
+}
+
+@media (min-width: 992px)
+.pt-lg-6, .py-lg-6 {
+    padding-top: 5rem!important;
+}
+.pb-5, .py-5 {
+    padding-bottom: 4rem!important;
+    padding-top: 4rem!important;
+
+}
+
+
+.img-overlay .img-text {
+    color: #fff;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: translateY(10px);
+    transition: opacity .5s ease-in-out,transform .5s ease-in-out;
+}
+
+.img-thumbnail, .img-thumbnail+.img-hover {
+    border-radius: 1.25rem;
+}
+.img-thumbnail {
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid #262626;
+}
+
+figure {
+    margin: 0 0 1rem;
+}
+
+h2 {
+  color: white;
+  font-weight: 3rem;
+  font-size: 2.5rem;
+  padding-bottom: .75rem;
+}
+
+.font-weight-light{
+font-weight: 100 !important;
+letter-spacing: .5px;
+}
+
+.bg-light {
+    background: #fff !important;
+}
+.container {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
 }

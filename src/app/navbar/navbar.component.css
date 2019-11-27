@@ -1,60 +1,13 @@
-/* Custom container for navbar */
-#parent {
-  display: flex;
-  position: relative;
-  background: linear-gradient(180deg, #474954 65%, #C2B2B4 35%);
-  overflow: hidden;
-}
-
-/*
-#parent:after {
-  position: absolute;
-  left: 0;
-  top: 65%;
-  height: 3%;
-  background: #262730;
-  content: "";
-  width: 100%;
-  display: block;
-  z-index: 1;
-}
-*/
-a.svg {
-  position: relative;
-  display: inline-block;
-}
-
-a.svg:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.bg-dark {
-  /*background: linear-gradient(180deg, #333333 75%, #fff 5%, #4d4d4d 20%);*/
-  background: #333333 !important;
-}
-
-.logo {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  max-height: 150px;
-}
-
 .nav-link {
   color: white;
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 25px;
 }
 
-
 .red_borders:after,
 .red_borders:before {
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   border: 1px solid rgba(255, 255, 255, 0);
   bottom: 0px;
   content: " ";
@@ -68,7 +21,7 @@ a.svg:after {
 .red_borders:hover:after,
 .red_borders:hover:before {
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   border-color: #9E2A2B;
   transition: width 600ms ease-in-out;
   width: 100%;
@@ -85,13 +38,69 @@ a.svg:after {
   padding-left: 25px;
   padding-right: 25px;
   transition: 600ms;
-transition-timing-function: ease-in-out;
--webkit-transition: 600ms;
--webkit-transition-timing-function: ease-in-out;
-
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 600ms;
+  -webkit-transition-timing-function: ease-in-out;
 }
 
 .logo_test:hover {
   -webkit-filter: brightness(10);
   filter: brightness(10);
+}
+
+.custon-navbar {
+  background-color: #0e0e0e;
+  color: white;
+}
+
+.custon-navbar>a {
+  color: white;
+}
+
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #0e0e0e;
+}
+
+.bg-dark {
+  background: #0e0e0e !important;
+  border-bottom: 2px solid #9E2A2B;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  margin-bottom: -1px;
+  flex: 1 1 auto;
+  text-align: center
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  transition: color 0.8s ease;
+}
+
+.nav-link:hover {
+  color: #9E2A2B !important;
+}
+
+.main-nav .nav-item+.nav-item:before {
+  content: "\222A";
+  color: #a6a6a6;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem
 }
