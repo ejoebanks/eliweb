@@ -2,6 +2,20 @@
   color: white;
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 25px;
+  display: inline-block;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  transition: color 0.8s ease;
+
+}
+
+.nav-link:hover {
+  color: #9E2A2B !important;
 }
 
 .red_borders:after,
@@ -33,29 +47,6 @@
   width: 100%;
 }
 
-.logo_test {
-  height: 200px;
-  padding-left: 25px;
-  padding-right: 25px;
-  transition: 600ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 600ms;
-  -webkit-transition-timing-function: ease-in-out;
-}
-
-.logo_test:hover {
-  -webkit-filter: brightness(10);
-  filter: brightness(10);
-}
-
-.custon-navbar {
-  background-color: #0e0e0e;
-  color: white;
-}
-
-.custon-navbar>a {
-  color: white;
-}
 
 .container {
   width: 100%;
@@ -63,11 +54,11 @@
   padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
-  background-color: #0e0e0e;
+  background-color: #262626;
 }
 
 .bg-dark {
-  background: #0e0e0e !important;
+  background: #262626 !important;
   border-bottom: 2px solid #9E2A2B;
 }
 
@@ -82,25 +73,10 @@
   text-align: center
 }
 
-.nav-link {
-  display: inline-block;
-  font-size: 1.2rem;
-  letter-spacing: 2px;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #fff;
-  transition: color 0.8s ease;
-}
-
-.nav-link:hover {
-  color: #9E2A2B !important;
-}
 
 .main-nav .nav-item+.nav-item:before {
   content: "\222A";
   color: #a6a6a6;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem
+  padding-left: 1rem;
+  padding-right: 1rem
 }
