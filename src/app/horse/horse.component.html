@@ -1,0 +1,125 @@
+<main id="content">
+
+  <div class="container pt-5 pt-lg-6">
+    <h1 class="display-4 mb-5 project-heading">Horse Braiding</h1>
+    <div class="text-wrapper">
+      <div class="row ml-1 test">
+
+        <div>
+          <dt class="font-weight-light text-heading">Function</dt>
+        </div>
+
+        <div class="ml-auto mr-3">
+          <dt class="font-weight-light text-used float-right">MySQL</dt>
+          <dt class="font-weight-light text-used float-right">JS</dt>
+          <dt class="font-weight-light text-used float-right">CSS</dt>
+          <dt class="font-weight-light text-used float-right">HTML</dt>
+          <dt class="font-weight-light text-used float-right">Laravel</dt>
+        </div>
+      </div>
+
+      <hr class="red_hr" />
+
+      <h2 class="project-function-title">Appointment Scheduling & Reminder</h2>
+
+      <div class="row justify-content-center">
+        <div class="col-8 description_box">
+          <p class="font-weight-light text-light project-text">
+            A website built for a professional horse braider. This website allows clients
+            to request appointments and give the braider a simple and more reliable method
+            of setting up, tracking, and completing their appointments.
+          </p>
+        </div>
+        <div class="col-4 visit_btn">
+          <a href="#" class="btn btn-primary disabled">Visit Soon</a>
+        </div>
+      </div>
+
+      <img src="assets/horse_content.jpg" class="img-thumbnail mb-4" alt="">
+
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10 project-box">
+        <h2 class="description-header">The Project</h2>
+        <p>
+          This was my first major project for a course and my first time working
+          with Laravel , but it was done with an actual customer in mind. A local
+          woman who braids horses for her job had trouble scheduling and handling
+          appointments. She had to run around various hose barns at various locations
+          and write down her appointments on whiteboards located in the barns.
+          This is unreliable and could lead to her work getting lost, as it could
+          be erased accidentally or otherwise.
+        </p>
+
+        <div class="text-center">
+          <img src="assets/horse_home.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
+        <p>
+          The website contains authentication and just two types of users; admin and
+          normal users. Admins would be the horse braider, or any other staff if
+          needed, while normal users would be any clients or potential clients that
+          register on the website. Admins have access to the CRUD pages, appointment
+          listings, and event creation or editing, while normal users can request
+          appointments, view their past appointments, and view their account information.
+        </p>
+
+        <p>
+          The main functionality begins with a client requesting an appointment. A
+          simple form asks the user for inputs of relevant information, such as
+          location, barn number, horse name, services they want, and other required
+          information. The services input is a dropdown populated by a table in
+          the database, so a client cannot put it a service that is not provided.
+          Once submitted, the entry is entered into the database marked with a
+          certain value that means it is simply requested.
+        </p>
+
+        <div class="text-center">
+          <img src="assets/horse_schedule.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
+        <p>
+          The main page for admins is three columns of appointments, sorted by status. The
+          first column is pending, the second is requested, and the third is for completed
+          appointments. They can choose to accept or deny a requested appointment, which
+          will either just cancel it or move it into the next column. If accepted, it stays
+          marked as "pending" until it has been marked as completed by the admin.
+        </p>
+
+        <div class="text-center">
+          <img src="assets/horse-appts.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
+        <p>
+          Using Javascript FullCalendar, a calendar is displayed that lists the scheduled
+          appointments. This was done both to give the horse braider(s) a clear view of their
+          appointments, and give the clients a look at any openings. As the majority of
+          work is done overnight, sometimes a certain job may be pushed off until the next morning or
+          one might be done the night before. As such, appointments can be easily dragged and dropped
+          to move them to applicable day. Each cell contains the horse and barn name, and each one
+          is color coordinated to match their status; yellow for requested, blue for accepted, and
+          green for complete.
+        </p>
+
+        <div class="text-center">
+          <img src="assets/horse_calendar.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
+        <p>
+          There are also notifications implemented within the application, with certain
+          triggers. The first one is a simple "new user" notification that is just sent
+          to the admin(s) when a user has made a new account. Another one is an
+          order confirmation of sorts, which is sent to the user who makes an appointment,
+          just notifying them that their request has been submitted. Lastly, there is an
+          appointment reminder that is sent to the client notifying them of their upcoming
+          appointment.
+        </p>
+
+        <div class="text-center my-6">
+          <a href="portfolio-4.html" class="btn btn-primary">Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
