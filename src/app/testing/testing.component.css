@@ -6,8 +6,9 @@
     margin-bottom: 1.5rem!important;
 }
 .img-thumbnail {
-    padding: 2rem;
+    padding: 1rem;
     background-color: transparent;
+    border: none;
 }
 .img-fluid, .img-thumbnail {
     max-width: 100%;
@@ -30,23 +31,48 @@ img, svg {
   width: 100%;
 }
 
+.text-wrapper h2, p {
+  padding: 1rem;
+}
+
 .text-heading {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: calc(18px + (26 - 14) * ((100vw - 100px) / (1600 - 300)));
   padding: 1rem;
 }
 
 .text-used {
   color: #fff;
-  font-size: 1.25rem;
-  padding: 1rem .25rem;
+  font-size: calc(14px + (26 - 14) * ((100vw - 100px) / (1600 - 300)));
+  padding: 1rem 0;
 }
+
+.project-function-title {
+  font-size: 3rem;
+}
+
+@media (max-width: 767.98px)
+.project-function-title {
+    font-size: 2.75rem !important;
+}
+
+@media (min-width:600px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (min-width:1000px) {
+  .text-heading {
+    /* Never get larger than this */
+    font-size: 2rem;
+  }
+}
+
 
 .text-used+.text-used:after {
   content: "\002F";
   color: #a6a6a6;
-  padding-left: .25rem;
-
+  padding: 5px;
 }
 
 .ml-1::after {
@@ -54,7 +80,73 @@ img, svg {
 }
 
 .red_hr {
-  border: 2px solid #9E2A2B;
+  border: 1px solid #9E2A2B;
   margin-top: 0;
-  width: 99%;
+  width: 95%;
+}
+
+.mr-3 {
+  padding-right: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;}
+
+.description_box {
+  width: 60%;
+  border-right: 4px solid #9E2A2B;
+  font-size: 1.25rem;
+}
+
+.project-box p {
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
+.description-header {
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #9E2A2B;
+}
+
+/* Custom Primary Button */
+.btn {
+  border-radius: 0;
+  font-weight: 200;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+.btn-primary {
+  background-color: transparent;
+  border-color: #9E2A2B;
+  color: #9E2A2B;
+  padding: .5rem 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #9E2A2B;
+  color: #fff;
+  border-color: #9E2A2B;
+}
+
+.btn-primary.focus,.btn-primary:focus{
+  box-shadow: none;
+}
+
+.btn-primary:active {
+  box-shadow: none !important;
+  border-color: #8e2526 !important;
+  background-color: #8e2526 !important;
+}
+
+.my-6 {
+  padding-bottom: 2rem;
+}
+
+.visit_btn {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
 }

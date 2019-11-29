@@ -14,9 +14,26 @@
           <dt class="font-weight-light text-used float-right">Javascript</dt>
         </div>
       </div>
-      <hr class="red_hr"/>
-      <p>AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
+      <hr class="red_hr" />
+      <h2 class="project-function-title">Term, Cumulative, & Projection</h2>
+      <div class="row justify-content-center">
+  <div class="col-8 description_box">
+    <p class="font-weight-light text-light project-text">
+      A single web page that allows students to calculate their term, cumulative,
+      and projected GPA.  Calculations are done using Javascript and displayed
+      dynamically on the page, so no submitting is required.
+    </p>
+  </div>
+  <div class="col-4 visit_btn">
+    <a href="https://libguides.aurora.edu/gpacalculator" class="btn btn-primary">Visit Page</a>
+  </div>
+</div>
+
+      <img src="assets/au_buildings.jpg" class="img-thumbnail mb-4" alt="">
+
     </div>
+
+    <!--
     <dl class="row px-lg-3 mb-5">
       <div class="col-lg-3">
         <dt class="font-weight-light text-secondary">Client</dt>
@@ -35,19 +52,46 @@
         <dd><a href="portfolio-1.html">architecture →</a> </dd>
       </div>
     </dl>
-
+    -->
     <div class="row justify-content-center">
-      <div class="col-lg-10">
-        <h2>The project</h2>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse <a href="#">cillum</a> dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-        <p class="mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="col-lg-10 project-box">
+        <h2 class="description-header">The Project</h2>
+        <p>
+          Commissioned by Aurora University, this GPA calculator was built over
+          the course of several months. Regular meetings were held during this time,
+          which started with University staff laying out what they wanted in this tool.
+          Subsuqent meetings were held to display and track progress, propose and discuss
+          potential changes, and chart how much time was left on the project.
+        </p>
+        <p>
+          As for the actual functionality, Javascript handles all of the calculations,
+          along with other functions. A simple HTML table is displayed with inputs for
+          course name, grade, and credit hours. A Javascript function automatically appends
+          four additional rows on load, as the typical course load is four, but additional rows
+          can be added or deleted, which uses another Javascript function.  Also, all inputs in
+          the table and in other forms can be reset using the reset button located under the table.
+        </p>
 
-        <img src="assets/img/architecture-2.jpg" class="border-dark img-thumbnail mb-4" alt="" data-action="zoom" style="">
+        <p>
+          The grade and credit hour inputs are populated dropdowns, as the University only
+          uses certain grade and credit hour values. Once a user has selected both a grade
+          and credit hour value, the quality points and term GPA and credits are calculated
+          and dynamically displayed in their applicable spots. If they wish to calculate their
+          cumulative GPA with their current term included, there is a toggle button that displays
+          the inputs for that. These inputs are parsed only if the value is a number, so entering
+          anything else prevents the calculation from using something that would cause an error.
+        </p>
 
-        <img src="assets/img/architecture-3.jpg" class="border-dark img-thumbnail" alt="" data-action="zoom">
+        <p>
+          Lastly, there is a projection calculation.  This is used if the student has a specific GPA
+          they would like to achieve and a certain amount of credit hours remaining.  The grade value
+          of their target GPA is then calculated and then compared to their actual GPA, and then
+          the GPA they would need to maintain is dispalyed.  If it is not possible, a message displays
+          that the target GPA cannot be achieved.
+        </p>
 
         <div class="text-center my-6">
-          <a href="portfolio-4.html" class="btn btn-outline-white">View all projects</a>
+          <a href="portfolio-4.html" class="btn btn-primary">Home</a>
         </div>
       </div>
     </div>
