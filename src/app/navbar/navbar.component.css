@@ -75,7 +75,7 @@
 
 
 .main-nav .nav-item+.nav-item:before {
-  content: "\222A";
+  content: "\275A";
   color: #a6a6a6;
   padding-left: 1rem;
   padding-right: 1rem
