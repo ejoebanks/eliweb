@@ -1,0 +1,126 @@
+<main id="content">
+
+  <div class="container pt-5 pt-lg-6">
+    <h1 class="display-4 mb-5 project-heading">Employee Management</h1>
+    <div class="text-wrapper">
+      <div class="row ml-1 test">
+        <div>
+          <dt class="font-weight-light text-heading">Function</dt>
+        </div>
+        <div class="ml-auto mr-3">
+          <dt class="font-weight-light text-used float-right">MySQL</dt>
+          <dt class="font-weight-light text-used float-right">JS</dt>
+          <dt class="font-weight-light text-used float-right">CSS</dt>
+          <dt class="font-weight-light text-used float-right">HTML</dt>
+          <dt class="font-weight-light text-used float-right">Laravel</dt>
+
+        </div>
+      </div>
+      <hr class="red_hr" />
+      <h2 class="project-function-title">Shift Management & Notification</h2>
+      <div class="row justify-content-center">
+  <div class="col-8 description_box">
+    <p class="font-weight-light text-light project-text">
+      A website custom made for a local branch of OI, a glass-container producing
+      company.  It allows management to view all of the employees and their shifts,
+      easily change the shift of a specific employee, and have a notification sent
+      to the employee notifying them of the change.
+    </p>
+  </div>
+  <div class="col-4 visit_btn">
+    <a href="https://em.ejanks.com" class="btn btn-primary">Visit</a>
+  </div>
+</div>
+
+      <img src="assets/oi_content.jpg" class="img-thumbnail mb-4" alt="">
+
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10 project-box">
+        <h2 class="description-header">The Project</h2>
+        <p>
+          Done as a school project but for an actual customer, this website was
+          built for the local branch of a major company that had an issue: all shift
+          changes were done by hand and then management had to call each employee
+          whose shift had changed to notify them of the change.  There is also functionality
+          in place for handling displaying staff events, such as staff birthdays, meetings, and
+          so on.  The website is built on the Laravel framework and uses various packages,
+          including Laravel Excel and Javascript FullCalendar.
+        </p>
+
+        <div class="text-center">
+          <img src="assets/oi_home_page.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
+
+        <p>
+          The website has basic authentication with two different types of users, which can
+          be seen as management and employees.  Middleware is implemented to determine the type
+          of user and filter their requests and views based on that, so normal users cannot access
+          certain areas or functionality.  Management have access to all of the admin functionality,
+          which include ability to create, edit, and delete shifts, employees, events, and more.
+        </p>
+        <div class="text-center">
+          <img src="assets/login.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+        <p>
+          The main functionality is on a page that has a table of all of the employees,
+          which is populated using a nested foreach loop with values being retrieved from a
+          MySQL database.  Employee name, clock number, hire date, job number, and
+          any comments are listed, and the  total number of employees per shift is totaled at
+          the top of each column.  Each table cell has a dropdown with all of their choices
+          for a shift, which is A through D.  Upon changing, information is affected in two tables:
+          their "shift" value in one and a new entry is put in another table, marking their previous
+          shift and current shift.  Additionally, as there are different job codes, the employee
+          clock number is color coordinated so all of the employees with the same job code have
+          matching colors.
+        </p>
+        <div class="text-center">
+          <img src="assets/shifts-1.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
+        <p>
+          There are also various import and export functions, which use Laravel Excel.  On the shift
+          listing page, there are buttons to download an organizational chart, an employee list, or have
+          them emailed to the authenticated user.  The organizational chart is a chart that lists each shift
+          and sorts them by their job code and the employee list is simply a chart that lists all of the employees
+          and all of their information, and both are exported in a .csv format.  On the import side, there is the
+          ability to upload a spreadsheet listing all of the employees and their shifts, which will delete and then
+          re-add all of these values to the relevant tables in the database.
+        </p>
+        <div class="text-center">
+          <img src="assets/spreadsheet-1.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
+
+        <p>
+          There is also complete CRUD functionality for admins of the website.  Each resource in the database has all of
+          the CRUD functions, along with the ability to search through each index, which uses a Javascript function to filter
+          through the table based on the search input.
+        </p>
+
+        <div class="text-center">
+          <img src="assets/admin-1.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
+        <p>
+          Lastly, there is an event calendar that utilizes Javascript FullCalendar.  The displayed events are populated
+          from a table in the database, and management can create, edit, and delete events right from the same page.  To
+          add an event, the user clicks on a day which calls a jQuery function to display a modal that has inputs for the
+          applicable event information.  Once the inputs have been filled out and it is submitted, AJAX is used to POST the
+          information and a PHP function from takes in the request and creates and saves the event to the database.  The
+          same process is used for the editing and deletion of events.
+        </p>
+
+        <div class="text-center">
+          <img src="assets/calendar-1.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+        <br/>
+        <div class="text-center my-6">
+          <a href="portfolio-4.html" class="btn btn-primary">Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
