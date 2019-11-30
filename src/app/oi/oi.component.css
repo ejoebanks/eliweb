@@ -51,10 +51,18 @@ img, svg {
   font-size: 3rem;
 }
 
-@media (max-width: 767.98px)
-.project-function-title {
-    font-size: 2.75rem !important;
+@media (max-width: 767.98px){
+  .project-function-title {
+      font-size: 2.75rem !important;
+  }
 }
+
+@media (max-width: 767.98px){
+  .project-heading {
+      font-size: 1.5rem !important;
+  }
+}
+
 
 @media (min-width:600px) {
   body {
@@ -154,4 +162,19 @@ p {
 .paragraph-img-border {
   border: 2px solid #9E2A2B;
   border-radius: 1rem;
+}
+
+.row {
+  margin-right: 0 !important;
+}
+
+@media (max-width: 600px){
+  .test .text-used  {
+      text-align: center !important;
+      font-size: 12px;
+  }
+
+  .test .text-heading {
+
+  }
 }
