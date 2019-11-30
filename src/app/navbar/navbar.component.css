@@ -63,8 +63,9 @@
 }
 
 .navbar-brand {
-  text-transform: uppercase;
   font-size: 1.5rem;
+  border-left: 5px solid #9E2A2B;
+  padding-left: 10px;
 }
 
 .nav-item {
@@ -73,10 +74,26 @@
   text-align: center
 }
 
+@media only screen and (max-width: 800px) {
+  .main-nav .nav-item+.nav-item:before {
+    content: none !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 
 .main-nav .nav-item+.nav-item:before {
   content: "\275A";
   color: #a6a6a6;
   padding-left: 1rem;
   padding-right: 1rem
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #9E2A2B
+}
+
+.material-icons {
+  font-size: 36px;
+  color: #9E2A2B
 }
