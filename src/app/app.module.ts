@@ -10,6 +10,7 @@ import { TestingComponent } from './testing/testing.component';
 import { DogrescueComponent } from './dogrescue/dogrescue.component';
 import { OiComponent } from './oi/oi.component';
 import { HorseComponent } from './horse/horse.component';
+import { OtherWorkComponent } from './other-work/other-work.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HorseComponent } from './horse/horse.component';
     TestingComponent,
     DogrescueComponent,
     OiComponent,
-    HorseComponent
+    HorseComponent,
+    OtherWorkComponent
   ],
   imports: [
     BrowserModule,
