@@ -150,3 +150,7 @@ p {
   margin-bottom: auto;
   margin-right: auto;
 }
+.paragraph-img-border {
+  border: 2px solid #9E2A2B;
+  border-radius: 1rem;
+}

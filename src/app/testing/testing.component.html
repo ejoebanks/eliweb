@@ -63,13 +63,18 @@
           Subsuqent meetings were held to display and track progress, propose and discuss
           potential changes, and chart how much time was left on the project.
         </p>
+
+        <div class="text-center">
+          <img src="assets/gpa_calc.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
         <p>
           As for the actual functionality, Javascript handles all of the calculations,
           along with other functions. A simple HTML table is displayed with inputs for
           course name, grade, and credit hours. A Javascript function automatically appends
           four additional rows on load, as the typical course load is four, but additional rows
           can be added or deleted, which uses another Javascript function.  Also, all inputs in
-          the table and in other forms can be reset using the reset button located under the table.
+          the table and in other forms can be reset using the reset button located below the table.
         </p>
 
         <p>
@@ -81,15 +86,32 @@
           the inputs for that. These inputs are parsed only if the value is a number, so entering
           anything else prevents the calculation from using something that would cause an error.
         </p>
+        <div class="text-center">
+          <img src="assets/gpa_calc_dropdown.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+
+        <p>
+          If they wish to calculate their cumulative GPA with their current term included, there
+          is a toggle button that displays the inputs for that. These inputs are parsed only if
+          the value is a number, so entering anything else prevents the calculation from using a
+          value that would cause an error.  Again, the output is dynamically calculated when
+          a new value has been entered
+        </p>
+        <div class="text-center">
+          <img src="assets/gpa_calc_function_2.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
 
         <p>
           Lastly, there is a projection calculation.  This is used if the student has a specific GPA
           they would like to achieve and a certain amount of credit hours remaining.  The grade value
           of their target GPA is then calculated and then compared to their actual GPA, and then
-          the GPA they would need to maintain is dispalyed.  If it is not possible, a message displays
-          that the target GPA cannot be achieved.
+          the GPA they would need to maintain is dispalyed.  If it is not possible, such as needing
+          a GPA of 10, a message displays that the target GPA cannot be achieved.
         </p>
-
+        <div class="text-center">
+          <img src="assets/gpa_calc_function_1.PNG" class="img-thumbnail paragraph-img-border" alt="" data-action="zoom" style="">
+        </div>
+        <br />
         <div class="text-center my-6">
           <a [routerLink]="['/']" class="btn btn-primary">Home</a>
         </div>
