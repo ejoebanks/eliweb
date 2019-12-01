@@ -128,3 +128,7 @@ h2 {
   border-color: #8e2526 !important;
   background-color: #8e2526 !important;
 }
+
+.pb-5 {
+  border-top: 3px solid #9E2A2B;
+}
