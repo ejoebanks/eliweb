@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MaincontentComponent } from './maincontent/maincontent.component';
 import { FooterComponent } from './footer/footer.component';
-import { TestingComponent } from './testing/testing.component';
 import { DogrescueComponent } from './dogrescue/dogrescue.component';
 import { OiComponent } from './oi/oi.component';
 import { HorseComponent } from './horse/horse.component';
 import { OtherWorkComponent } from './other-work/other-work.component';
+import { GpaCalculatorComponent } from './gpa-calculator/gpa-calculator.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +18,11 @@ import { OtherWorkComponent } from './other-work/other-work.component';
     NavbarComponent,
     MaincontentComponent,
     FooterComponent,
-    TestingComponent,
     DogrescueComponent,
     OiComponent,
     HorseComponent,
-    OtherWorkComponent
+    OtherWorkComponent,
+    GpaCalculatorComponent
   ],
   imports: [
     BrowserModule,
