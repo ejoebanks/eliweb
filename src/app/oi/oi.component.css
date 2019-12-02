@@ -45,6 +45,7 @@ img, svg {
   color: #fff;
   font-size: calc(14px + (26 - 14) * ((100vw - 100px) / (1600 - 300)));
   padding: 1rem 0;
+  padding-right: 1rem;
 }
 
 .project-function-title {
@@ -177,4 +178,8 @@ p {
   .test .text-heading {
 
   }
+}
+
+.float-right {
+  text-align: center !important;
 }
