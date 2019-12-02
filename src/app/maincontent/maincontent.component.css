@@ -5,6 +5,7 @@
   padding-bottom: .25em;
 }
 
+/* Custom HR for under content heading */
 .red-border {
   border-width: 1rem !important;
   border-color: #9E2A2B !important;
@@ -66,7 +67,7 @@ h2 {
 }
 
 .img-overlay .img-hover {
-  background-color: rgba(158,42,43, .9);
+  background-color: rgba(255,255,255, .8);
   border: 2px solid #A9A9A9	;
   position: absolute;
   top: 0;
@@ -78,7 +79,7 @@ h2 {
 }
 
 .img-overlay .img-text {
-  color: #fff;
+  color: #9E2A2B;
   font-size: 2rem;
   display: flex;
   align-items: center;
@@ -99,35 +100,6 @@ h2 {
   transform: translateY(0)
 }
 
-/* Custom Primary Button */
-.btn {
-  border-radius: 0;
-  font-weight: 200;
-  font-size: 1.5em;
-  vertical-align: middle;
-}
-.btn-primary {
-  background-color: transparent;
-  border-color: #9E2A2B;
-  color: #9E2A2B;
-  padding: .5rem 1rem;
-}
-
-.btn-primary:hover {
-  background-color: #9E2A2B;
-  color: #fff;
-  border-color: #9E2A2B;
-}
-
-.btn-primary.focus,.btn-primary:focus{
-  box-shadow: none;
-}
-
-.btn-primary:active {
-  box-shadow: none !important;
-  border-color: #8e2526 !important;
-  background-color: #8e2526 !important;
-}
 
 .pb-5 {
   border-top: 3px solid #9E2A2B;
