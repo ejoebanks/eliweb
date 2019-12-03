@@ -5,6 +5,7 @@ import { GpaCalculatorComponent } from './gpa-calculator/gpa-calculator.componen
 import { OiComponent } from './oi/oi.component';
 import { HorseComponent } from './horse/horse.component';
 import { DogrescueComponent } from './dogrescue/dogrescue.component';
+import { OtherWorkComponent } from './other-work/other-work.component';
 
 
 const routes: Routes = [
@@ -28,6 +29,10 @@ const routes: Routes = [
   {
     path: 'dogrescue',
     component: DogrescueComponent
+  },
+  {
+    path: 'other',
+    component: OtherWorkComponent
   }
 
 ];

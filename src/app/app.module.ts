@@ -11,6 +11,7 @@ import { OiComponent } from './oi/oi.component';
 import { HorseComponent } from './horse/horse.component';
 import { OtherWorkComponent } from './other-work/other-work.component';
 import { GpaCalculatorComponent } from './gpa-calculator/gpa-calculator.component';
+import { OtherWorkComponent } from './other-work/other-work.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { GpaCalculatorComponent } from './gpa-calculator/gpa-calculator.componen
     OiComponent,
     HorseComponent,
     OtherWorkComponent,
-    GpaCalculatorComponent
+    GpaCalculatorComponent,
+    OtherWorkComponent
   ],
   imports: [
     BrowserModule,
