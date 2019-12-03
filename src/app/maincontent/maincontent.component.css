@@ -18,9 +18,6 @@
   font-size: 1.5em;
 }
 
-@media (min-width: 992px) .pt-lg-6, .py-lg-6 {
-  padding-top: 5rem !important;
-}
 
 .pb-5, .py-5 {
   padding-bottom: 4rem !important;
