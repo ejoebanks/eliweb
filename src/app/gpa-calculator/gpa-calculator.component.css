@@ -25,18 +25,6 @@ img, svg {
     margin-left: auto;
 }
 
-.text-wrapper {
-  border: 2px solid #9E2A2B;
-  border-radius: 1rem;
-  width: 100%;
-}
-
-.text-wrapper h2, p {
-  padding: 1rem;
-}
-
-
-
 .project-function-title {
   font-size: 3rem;
 }
@@ -50,12 +38,6 @@ img, svg {
 
 .ml-1::after {
   border: 5px solid #9E2A2B;
-}
-
-.red_hr {
-  border: 1px solid #9E2A2B;
-  margin-top: 0;
-  width: 95%;
 }
 
 .mr-3 {

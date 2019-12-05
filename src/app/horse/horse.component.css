@@ -25,28 +25,6 @@ img, svg {
     margin-left: auto;
 }
 
-.text-wrapper {
-  border: 2px solid #9E2A2B;
-  border-radius: 1rem;
-  width: 100%;
-}
-
-.text-wrapper h2, p {
-  padding: 1rem;
-}
-
-.text-heading {
-  color: #fff;
-  font-size: calc(18px + (26 - 14) * ((100vw - 100px) / (1600 - 300)));
-  padding: 1rem;
-}
-
-.text-used {
-  color: #fff;
-  font-size: calc(14px + (26 - 14) * ((100vw - 100px) / (1600 - 300)));
-  padding: 1rem 0;
-}
-
 .project-function-title {
   font-size: 3rem;
 }
@@ -56,13 +34,6 @@ img, svg {
     font-size: 16px;
   }
 }
-@media (min-width:1000px) {
-  .text-heading {
-    /* Never get larger than this */
-    font-size: 2rem;
-  }
-}
-
 
 .text-used+.text-used:after {
   content: "\002F";
@@ -72,12 +43,6 @@ img, svg {
 
 .ml-1::after {
   border: 5px solid #9E2A2B;
-}
-
-.red_hr {
-  border: 1px solid #9E2A2B;
-  margin-top: 0;
-  width: 95%;
 }
 
 .mr-3 {
