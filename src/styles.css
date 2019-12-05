@@ -98,12 +98,11 @@
 
 @media only screen and (max-width: 600px) {
   .text-heading {
-    border-right: thick solid #9E2A2B;
-    margin: auto;
+    text-align: left;
   }
 
   .text-used {
-    text-align: center;
+    text-align: right;
   }
 }
 
