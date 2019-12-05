@@ -22,7 +22,7 @@
 .red_borders:before {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border-top: medium solid rgba(255, 255, 255, 0);
   bottom: 0px;
   content: " ";
   display: block;
@@ -59,7 +59,7 @@
 
 .bg-dark {
   background: #262626 !important;
-  border-bottom: 2px solid #9E2A2B;
+  border-bottom: thick solid #9E2A2B;
 }
 
 .navbar-brand {
